@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 
 
-ACCESS_TOKEN = "f556c5bdc135b09594a482a7438c424009244a5434814d41f6b380733a92f631"
+ACCESS_TOKEN = "d11c30dadcfc944fe96200e199311c139e1c4e9cd5138c74cb5e9e055c825c39"
 UID = "FAXXXXX"
 DATA_DIR = "./shoonyadata"
 
@@ -25,7 +25,7 @@ def get_today_midnight_timestamp_ist():
 
 # ===== CONFIG =====
 ST_TIMESTAMP = get_today_midnight_timestamp_ist()
-ST_TIMESTAMP= "1777919400"    #uncomment if you want any other timestamp 
+#ST_TIMESTAMP= "1777919400"    #uncomment if you want any other timestamp 
 
 
 
